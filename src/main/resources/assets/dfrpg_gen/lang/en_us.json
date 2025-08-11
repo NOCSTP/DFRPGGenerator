@@ -1,0 +1,16 @@
+{
+  "block.dfrpg_gen.generator_block": "Hope Generator",
+
+  "gui.dfrpg_gen.generator.contribute": "Contribute",
+  "gui.dfrpg_gen.generator.global_progress": "Global Progress:",
+  "gui.dfrpg_gen.generator.personal_progress": "Personal Contribution:",
+
+  "message.dfrpg_gen.contribution.success": "Thank you for your contribution of %s points!",
+  "message.dfrpg_gen.contribution.invalid_item": "This item cannot be contributed.",
+  "message.dfrpg_gen.contribution.not_enough_items": "You do not have enough of this item.",
+  "message.dfrpg_gen.contribution.limit_exceeded": "Your contribution of %s points would exceed the limit. You can contribute a maximum of %s more points for this level.",
+
+  "message.dfrpg_gen.levelup.broadcast": "Congratulations! The server has reached Hope Level %s!",
+
+  "message.dfrpg_gen.command.reset_broadcast": "An administrator has reset all server progression."
+}

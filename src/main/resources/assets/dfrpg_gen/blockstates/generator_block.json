@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dfrpg_gen:block/generator_block"
+    }
+  }
+}
