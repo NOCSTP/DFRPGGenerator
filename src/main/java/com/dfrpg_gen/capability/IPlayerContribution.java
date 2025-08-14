@@ -51,4 +51,16 @@ public interface IPlayerContribution {
      * @param nbt The tag to read data from.
      */
     void loadNBTData(CompoundTag nbt);
+
+    /**
+     * Gets the Hope Level that this contribution data is tracked against.
+     * @return The integer level number.
+     */
+    int getTrackedLevel();
+
+    /**
+     * Sets the Hope Level that this contribution data is tracked against.
+     * @param level The integer level number.
+     */
+    void setTrackedLevel(int level);
 }

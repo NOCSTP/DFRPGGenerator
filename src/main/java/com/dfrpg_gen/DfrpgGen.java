@@ -4,6 +4,7 @@ import com.dfrpg_gen.block.ModBlocks;
 import com.dfrpg_gen.block.entity.ModBlockEntities;
 import com.dfrpg_gen.config.ConfigManager;
 import com.dfrpg_gen.config.ModConfigs;
+import com.dfrpg_gen.event.PlayerLoginHandler;
 import com.dfrpg_gen.event.RewardListener;
 import com.dfrpg_gen.item.ModItems;
 import com.dfrpg_gen.networking.ModPackets;
@@ -52,6 +53,7 @@ public class DfrpgGen {
 
         // Register the custom Reward Listener
         MinecraftForge.EVENT_BUS.register(new RewardListener());
+        MinecraftForge.EVENT_BUS.register(new PlayerLoginHandler());
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

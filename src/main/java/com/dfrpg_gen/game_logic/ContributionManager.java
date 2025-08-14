@@ -80,6 +80,7 @@ public final class ContributionManager {
 
             // 2. Update player's personal contribution data (Capability)
             cap.addContribution(contributionValue);
+            cap.setTrackedLevel(worldData.getCurrentLevel());
 
             // 3. Update global progress data (SavedData)
             worldData.addProgressPoints(contributionValue);
